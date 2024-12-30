@@ -1,0 +1,43 @@
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: #F8E8A6;
+    display: block;
+    padding: 28px;
+}
+
+a {
+    color: #008000;
+}
+
+.heading {
+    margin: 22px 0 22px 0;
+}
+
+.details {
+    margin-bottom: 18px;
+}
+
+.page-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.email-link {
+    color: #681DEC;
+}
+
+.croissant-img {
+    max-width: 100%;
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
+}

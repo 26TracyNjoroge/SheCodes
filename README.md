@@ -5,7 +5,7 @@ This repository contains various projects and homework completed in the SheCodes
 
 ## Projects 
 
-- [Shecodes portfolio]()
+- [Shecodes portfolio](https://she-codes-portfolio-practice.vercel.app/)
 
 Explore the individual folders for more details about each project.
 
