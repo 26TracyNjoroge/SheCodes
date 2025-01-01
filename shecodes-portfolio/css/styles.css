@@ -5,15 +5,15 @@
   }
   
   h1 {
-    font-size: 96px;
+    font-size: 6rem;
   }
   
   h2 {
-    font-size: 48px;
+    font-size: 3rem;
   }
   
   h3 {
-    font-size: 24px;
+    font-size: 1.5rem;
     opacity: 0.7;
   }
   
@@ -122,3 +122,20 @@
     text-decoration: underline;
   }
   
+  @media (max-width:576px) {
+     body {
+      text-align: center;
+      padding: 12px;
+     }
+    .heading-main {
+      font-size: 2rem;
+    }
+    .heading-one {
+      font-size: 2rem;
+      margin-bottom: 6px;
+    }
+    .heading-two {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+  }
