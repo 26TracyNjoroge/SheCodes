@@ -123,19 +123,41 @@
   }
   
   @media (max-width:576px) {
-     body {
-      text-align: center;
+     .container {
       padding: 12px;
+      margin-bottom: 46px;
      }
+
+     button {
+      display: block;
+      margin: 0 auto;
+     }
+
+     h2,
+     .spaced-height {
+      text-align: center;
+     }
+
     .heading-main {
       font-size: 2rem;
     }
+
     .heading-one {
       font-size: 2rem;
       margin-bottom: 6px;
     }
+
     .heading-two {
       font-size: 3rem;
       margin-bottom: 10px;
+    }
+
+    .full-width {
+      width: 90%;
+    }
+
+    #contact {
+      padding: 28px;
+      margin-bottom: 36px;
     }
   }
