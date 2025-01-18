@@ -1,6 +1,7 @@
 :root {
     --primary-color: rgb(39, 33, 66, 100%);
     --secondary-color: rgb(108, 99, 255, 100%);
+    --hero-bcg-color: #F9F7FE;
     --black-color: rgb(0, 0, 0, 100%);
     --main-heading: "Playfair Display", serif;
     --sub-heading: "Poppins", serif;
@@ -29,12 +30,12 @@ figcaption {
 
 body {
     font-family: var(--sub-heading);
-    padding-top: 80px;
 }
 
 .hero-section {
+    padding: 80px 0 60px 0;
     text-align: center;
-
+    background-color: var(--hero-bcg-color);
 }
 
 .hero-section p {
