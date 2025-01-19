@@ -7,6 +7,8 @@ This repository contains various projects and homework completed in the SheCodes
 
 - [Croissant(SEO)](https://she-codes-croissant.vercel.app/)
 
+- [My portfolio](https://she-codes-njoroge-portfolio.vercel.app/)
+
 - [Shecodes portfolio](https://she-codes-portfolio-practice.vercel.app/)
 
 - [Shecodes weather app](https://she-codes-weather-application.vercel.app/)
