@@ -68,8 +68,15 @@ body {
     border: 1px solid var(--secondary-color);
     font-size: 1.125rem;
     font-weight: normal;
-    border-radius: 4px;
+    border-radius: 36px;
     padding: 18px 30px;
+    transition: 200ms;
+}
+
+.start-button:hover {
+    background-color: var(--secondary-color);
+    color: white;
+    transform: scale(1.2);
 }
 
 .project-link {
