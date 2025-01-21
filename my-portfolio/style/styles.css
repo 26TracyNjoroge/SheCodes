@@ -1,8 +1,9 @@
 :root {
     --primary-color: rgb(39, 33, 66, 100%);
     --secondary-color: #A56C87;
-    --hero-bcg-color: #F9F7FE;
+    --white-color: #EAE9E5;
     --black-color: rgb(0, 0, 0, 100%);
+
     --main-heading: "Playfair Display", serif;
     --sub-heading: "Poppins", serif;
 }
@@ -30,13 +31,14 @@ figcaption {
 
 body {
     font-family: var(--sub-heading);
+    background-color: #f5f0f0;
 }
 
 .hero-section {
     position: relative;
     text-align: center;
     padding: 80px 0 60px 0;
-    background-image: url(/images/keyboard.jpg);
+    background-image: url(/images/keyboard2.jpg);
     background-size: cover;
 }
 
@@ -46,9 +48,9 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(/images/keyboard.jpg);
+    background-image: url(/images/keyboard2.jpg);
     background-size: cover;
-    filter: blur(7px);
+    filter: blur(10px);
     z-index: 2;
 }
 
@@ -61,21 +63,22 @@ body {
     font-family: var(--sub-heading);
     font-size: 2.25rem;
     font-weight: bold;
-    color: var(--primary-color);
+    color: var(--white-color);
     margin: 0;
+
 }
 
 .hero-section h1 {
     font-family: var(--main-heading);
     font-size: 6rem;
     font-weight: bold;
-    color: var(--black-color);
+    color: var(--white-color);
     line-height: 1.2;
 }
 
 .hero-section h2 {
     font-family: var(--sub-heading);
-    color: var(--primary-color);
+    color: #998C93;
     font-size: 1.5rem;
     font-weight: normal;
     line-height: 2;
@@ -98,10 +101,13 @@ body {
 }
 
 .project-link {
-    color: var(--secondary-color);
-    border: 1px solid var(--secondary-color);
+    color: var(--white-color);
+    background-color: var(--secondary-color);
     padding: 18px 30px;
     font-weight: 600;
+    display: block;
+    margin: 0 auto;
+    width: 40%;
 }
 
 .project-link:hover {
