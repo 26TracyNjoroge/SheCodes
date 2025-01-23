@@ -102,6 +102,14 @@ body {
     margin: 0 30px 30px 30px;
 }
 
+.about-section-content h2 {
+    color: #998C93;
+}
+
+.about-section-content p {
+    opacity: 0.9;
+}
+
 .tracy-pic {
     width: 100%;
     height: auto;
@@ -131,6 +139,25 @@ body {
     display: block;
     margin: 0 auto;
     width: 40%;
+}
+
+.see-project {
+    color: var(--white-color);
+    background-color: var(--secondary-color);
+    padding: 18px 30px;
+    width: 22%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 48px;
+    border-radius: 38px;
+    transition: 200ms;
+}
+
+.see-project:hover {
+    color: var(--black-color);
+    border: 1px solid var(--secondary-color);
+    color: #A56C87;
+    transform: scale(1.1);
 }
 
 .project-link:hover {
