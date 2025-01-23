@@ -65,7 +65,6 @@ body {
     font-weight: bold;
     color: var(--white-color);
     margin: 0;
-
 }
 
 .hero-section h1 {
@@ -84,20 +83,28 @@ body {
     line-height: 2;
 }
 
-.about-section p {
-    font-size: 20px;
+.about-section {
+    padding: 130px 26px;
 }
 
 .about-section h1 {
-    font-size: 20px;
+    font-size: 4rem;
+    line-height: 80px;
+    font-family: var(--main-heading);
 }
 
 .about-section h2 {
-    font-size: 20px;
+    font-size: 1.125rem;
+    font-family: var(--sub-heading);
 }
 
 .about-section-content {
-    margin: 30px;
+    margin: 0 30px 30px 30px;
+}
+
+.tracy-pic {
+    width: 100%;
+    height: auto;
 }
 
 .start-button {
