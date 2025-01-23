@@ -84,6 +84,22 @@ body {
     line-height: 2;
 }
 
+.about-section p {
+    font-size: 20px;
+}
+
+.about-section h1 {
+    font-size: 20px;
+}
+
+.about-section h2 {
+    font-size: 20px;
+}
+
+.about-section-content {
+    margin: 30px;
+}
+
 .start-button {
     color: var(--secondary-color);
     border: 1px solid var(--secondary-color);
