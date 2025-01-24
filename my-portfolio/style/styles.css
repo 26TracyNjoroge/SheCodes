@@ -31,7 +31,10 @@ figcaption {
 
 body {
     font-family: var(--sub-heading);
-    background-color: #f5f0f0;
+}
+
+main {
+    background-color: #FFFFFF;
 }
 
 .hero-section {
@@ -59,6 +62,10 @@ body {
     z-index: 2;
 }
 
+.project {
+    background-color: #f5f0f0;
+}
+
 .hero-section p {
     font-family: var(--sub-heading);
     font-size: 2.25rem;
@@ -83,30 +90,30 @@ body {
     line-height: 2;
 }
 
-.about-section {
-    padding: 130px 26px;
+.content-section {
+    padding: 160px 26px;
 }
 
-.about-section h1 {
+.content-section h1 {
     font-size: 4rem;
     line-height: 80px;
     font-family: var(--main-heading);
 }
 
-.about-section h2 {
+.content-section h2 {
     font-size: 1.125rem;
     font-family: var(--sub-heading);
 }
 
-.about-section-content {
+.content {
     margin: 0 30px 30px 30px;
 }
 
-.about-section-content h2 {
+.content h2 {
     color: #998C93;
 }
 
-.about-section-content p {
+.content p {
     opacity: 0.9;
 }
 
