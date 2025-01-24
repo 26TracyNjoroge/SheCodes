@@ -225,5 +225,9 @@ h2 {
     .content-section h1 span {
         font-size: 2.5rem;
     }
+
+    .see-project {
+        width: 44%;
+    }
 }
 
