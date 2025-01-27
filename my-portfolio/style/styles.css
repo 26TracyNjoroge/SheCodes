@@ -37,6 +37,25 @@ main {
     background-color: #FFFFFF;
 }
 
+.fa-instagram {
+    font-size: 2rem;
+}
+
+.fa-x-twitter {
+    font-size: 2rem;
+    margin: 0 14px 0 14px;
+}
+
+.fa-github {
+    font-size: 2rem;
+}
+
+/* .social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 42%;
+}  */
+
 .hero-section {
     position: relative;
     text-align: center;
