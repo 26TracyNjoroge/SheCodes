@@ -122,6 +122,11 @@ main {
     opacity: 0.9;
 }
 
+.work h4 {
+    font-weight: bolder;
+    color: black;
+}
+
 .tracy-pic {
     width: 100%;
     height: auto;
