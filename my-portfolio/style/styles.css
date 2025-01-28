@@ -31,6 +31,7 @@ figcaption {
 
 body {
     font-family: var(--sub-heading);
+    background-color: #FFFFFF;
 }
 
 main {
@@ -40,7 +41,7 @@ main {
 .hero-section {
     position: relative;
     text-align: center;
-    padding: 80px 0 60px 0;
+    padding: 30px 0 60px 0;
     background-image: url(/images/keyboard2.jpg);
     background-size: cover;
 }
@@ -53,10 +54,11 @@ main {
     bottom: 0;
     background-image: url(/images/keyboard2.jpg);
     background-size: cover;
-    filter: blur(10px);
+    filter: blur(16px);
     z-index: 2;
 }
 
+nav,
 .hero {
     position: relative;
     z-index: 2;
@@ -64,6 +66,10 @@ main {
 
 .project {
     background-color: #f5f0f0;
+}
+
+.hero {
+    margin-top: 74px;
 }
 
 .hero-section p {
@@ -278,12 +284,12 @@ a {
 }
 
 nav {
-    padding: 8px 0;
+    padding: 18px 0;
 }
 
 nav img {
-    width: 90px;
-    height: 90px;
+    width: 58px;
+    height: 58px;
     border-radius: 50%;
 }
 
@@ -294,12 +300,21 @@ nav ul {
 
 nav li {
     display: inline;
-    line-height: 78px;
+    line-height: 58px;
+    margin-left: 28px;
 }
 
 .nav-section {
     display: flex;
     justify-content: space-between;
+}
+
+nav a {
+    color: var(--secondary-color);
+}
+
+nav a:hover {
+    color: #998C93;
 }
 
 @media (max-width: 992px) {
