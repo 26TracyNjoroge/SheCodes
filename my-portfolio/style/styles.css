@@ -288,8 +288,14 @@ nav ul {
     list-style-type: none;
 }
 
-nav a {
+nav li {
+    display: inline;
+    line-height: 48px;
+}
 
+.nav-section {
+    display: flex;
+    justify-content: space-between;
 }
 
 @media (max-width: 992px) {
