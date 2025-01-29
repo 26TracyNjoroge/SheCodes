@@ -316,6 +316,9 @@ nav a {
 nav a:hover {
     color: #998C93;
 }
+footer {
+    padding: 56px 0;
+}
 
 @media (max-width: 992px) {
     hero-section p {
