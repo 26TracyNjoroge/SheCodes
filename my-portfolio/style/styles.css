@@ -195,6 +195,12 @@ h2 {
     font-family: var(--main-heading);
 }
 
+.active a {
+    color: #941651; 
+    font-weight: bold; 
+}
+
+
 .fa-instagram {
     font-size: 2rem;
     color: black;
@@ -321,7 +327,7 @@ nav a:hover {
     color: #998C93;
 }
 footer {
-    padding: 74px 0;
+    padding: 44px 0;
 }
 
 @media (max-width: 992px) {

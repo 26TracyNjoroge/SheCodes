@@ -13,29 +13,29 @@
     <link rel="stylesheet" href="/style/styles.css" />
 </head>
 <body>
-    <main>
+    <main class="container">
         <nav>
-            <div class="container nav-section">
-                <a href="/">
-                    <img src="/images/TRACY.png" class="">
+            <div class="nav-section">
+                <a href="/" title="Homepage">
+                    <img src="/images/TRACY.png" alt="Tracy Wangari's logo">
                 </a>
                 <ul>
                     <li>
-                        <a href="/">Home</a>
+                        <a href="/" title="Homepage">Home</a>
+                    </li>
+                    <li class="active">
+                        <a href="/about.html" title="About Tracy">About</a>
                     </li>
                     <li>
-                        <a href="/about.html">About</a>
+                        <a href="/work.html" title="Tracy's work">Work</a>
                     </li>
                     <li>
-                        <a href="/work.html">Work</a>
-                    </li>
-                    <li>
-                        <a href="/contact.html">Contact</a>
+                        <a href="/contact.html" title="Contact Tracy">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <div class="content-section container">
+        <div class="content-section">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="content">
@@ -53,13 +53,38 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                        <img src="/images/tracy.JPG" alt="Picture of Tracy" class="img-fluid rounded tracy-pic" width="400px" />
+                        <img src="/images/tracy.JPG" alt="Tracy Wangari" class="img-fluid rounded tracy-pic" width="400px" />
                 </div>
                 <div class="row">
-                    <a href="/work.html" class="btn see-project">See my projects</a>
+                    <a href="/work.html" class="btn see-project" title="Work page">See my projects</a>
                 </div>
             </div>
         </div>
+        <footer class="mt-0">
+            <div class="inquiry-section d-none d-lg-flex">
+                <div class="work-together">
+                    <h2>Work Inquiry</h2>
+                    <p>Let's work together</p>
+                </div>
+                <div>
+                    <a href="mailto:tracywangari997@gmail.com" class="btn work-link" title="Email Tracy" >Let's talk here</a>
+                </div>
+            </div>
+            <div class="text-center mb-4 email-link">
+                <a href="mailto:tracywangari997@gmail.com" class="email-link" title="Email Tracy" >tracywangari997@gmail.com</a>
+            </div>
+            <div class="social-icons text-center">
+                <a href="https://www.instagram.com/tracey_njoroge/" target="_blank" title="Instagram profile"> 
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://x.com/TracyNjoro90134" target="_blank" title="Twitter profile">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="https://github.com/26TracyNjoroge" target="_blank" title="Github profile">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+         </footer>
     </main>
     
 </body>
