@@ -1,7 +1,11 @@
 :root {
     --primary-color: rgb(39, 33, 66, 100%);
-    --secondary-color: #A56C87;
-    --white-color: #EAE9E5;
+    --secondary-color: #f9f7fe;
+    --branding-color: #A56C87;
+    --heading-one-color: #16070e;
+    --heading-two-color: #16070e;
+    --work-section-bg-color: #ffeef6;
+    --white-color: #ffe9fe;
     --black-color: rgb(0, 0, 0, 100%);
 
     --main-heading: "Playfair Display", serif;
@@ -31,67 +35,121 @@ figcaption {
 
 body {
     font-family: var(--sub-heading);
-    background-color: #FFFFFF;
 }
 
-main {
-    background-color: #FFFFFF;
+nav {
+    padding: 14px 0;
 }
 
-.hero-section {
+nav img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    line-height: 58px;
+    margin-left: 28px;
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: var(--branding-color);
+}
+
+nav a:hover {
+    color: #998C93;
+}
+
+.active a {
+    color: #941651; 
+    font-weight: bold; 
+}
+
+.hero {
+    background-color: var(--secondary-color);
+    padding: 80px 20px;
     text-align: center;
-    padding: 30px 0 60px 0;
 }
 
-/* .blur-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url(/images/keyboard2.jpg);
-    background-size: cover;
-    filter: blur(16px);
-    z-index: 2;
-} */
-
-/* nav,
-.hero {
-    position: relative;
-    z-index: 2;
-} */
-
-.project {
-    background-color: #f5f0f0;
-}
-
-.hero {
-    margin-top: 74px;
-}
-
-.hero-section p {
-    font-family: var(--sub-heading);
+.hero p {
     font-size: 2.25rem;
     font-weight: bold;
-    color: var(--white-color);
+    color: var(--heading-color);
     margin: 0;
 }
 
-.hero-section h1 {
+.hero h1 {
     font-family: var(--main-heading);
     font-size: 6rem;
     font-weight: bold;
-    color: var(--white-color);
+    color: var(--heading-color);
     line-height: 1.2;
 }
 
-.hero-section h2 {
-    font-family: var(--sub-heading);
+.hero h2 {
     color: #998C93;
     font-size: 1.5rem;
     font-weight: normal;
     line-height: 2;
 }
+
+header .start-button {
+    color: var(--secondary-color);
+    background-color: var(--branding-color);
+    font-size: 1.125rem;
+    font-weight: normal;
+    border-radius: 36px;
+    padding: 18px 38px;
+    transition: 200ms;
+}
+
+header .start-button:hover {
+    color: var(--branding-color);
+    border: 1px solid var(--branding-color);
+    transform: scale(1.2);
+}
+
+.project-details {
+    font-size: 1rem;
+    opacity: 0.7;
+    line-height: 30px;
+}
+
+.project-link {
+    color: var(--white-color);
+    background-color: var(--branding-color);
+    padding: 18px 30px;
+    font-weight: 600;
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.project-link:hover {
+    color: var(--black-color);
+    border: 1px solid var(--branding-color);
+    padding: 18px 30px;
+}
+
+
+
+
+
+.project {
+    background-color: #f5f0f0;
+}
+
 
 .content-section {
     padding: 160px 26px;
@@ -135,32 +193,6 @@ main {
     height: auto;
 }
 
-.start-button {
-    color: var(--secondary-color);
-    border: 1px solid var(--secondary-color);
-    font-size: 1.125rem;
-    font-weight: normal;
-    border-radius: 36px;
-    padding: 18px 30px;
-    transition: 200ms;
-}
-
-.start-button:hover {
-    background-color: var(--secondary-color);
-    color: white;
-    transform: scale(1.2);
-}
-
-.project-link {
-    color: var(--white-color);
-    background-color: var(--secondary-color);
-    padding: 18px 30px;
-    font-weight: 600;
-    display: block;
-    margin: 0 auto;
-    width: 40%;
-}
-
 .see-project {
     color: var(--white-color);
     background-color: var(--secondary-color);
@@ -180,22 +212,13 @@ main {
     transform: scale(1.1);
 }
 
-.project-link:hover {
-    color: var(--black-color);
-    border: 1px solid var(--secondary-color);
-    padding: 18px 30px;
-}
-
 h2 {
     font-size: 4rem;
     color: var(--black-color);
     font-family: var(--main-heading);
 }
 
-.active a {
-    color: #941651; 
-    font-weight: bold; 
-}
+
 
 
 .fa-instagram {
@@ -231,49 +254,19 @@ a {
     text-align: center;
 }
 
-footer .inquiry-section {
-    display: flex;
-    justify-content: space-between;
-    padding: 38px;
-    background-color: #f1e7ec;
-    margin: 0 auto;
-    width: 70%;
-    margin-bottom: 38px;
-    border-radius: 8px;
-}
-
  footer .social-icons {
     margin-top: 40px;
  }
 
-.work-together {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .work-section h1{
     color: black;
     margin-bottom: 26px;
  }
 
-.work-together h2{
-   font-size: 2.8rem;
-   font-weight: bold;
-}
 
-.work-link {
-    color: var(--white-color);
-    background-color: var(--secondary-color);
-    padding: 20px 36px;
-    margin-top: 12px;
-}
 
-.work-link:hover {
-    color: var(--white-color);
-    padding: 20px 36px;
-    margin-top: 12px;
-    background-color: #941651;
-}
 
 .email-link {
     font-size: 1.8rem;
@@ -284,47 +277,44 @@ footer .inquiry-section {
     opacity: 0.8;
 }
 
-.project-details {
-    font-size: 1rem;
-    opacity: 0.7;
-    line-height: 30px;
+
+footer {
+    padding: 94px 0 48px 0;
 }
 
-nav {
-    padding: 18px 0;
-}
-
-nav img {
-    width: 58px;
-    height: 58px;
-    border-radius: 50%;
-}
-
-nav ul {
-    padding: 0;
-    list-style-type: none;
-}
-
-nav li {
-    display: inline;
-    line-height: 58px;
-    margin-left: 28px;
-}
-
-.nav-section {
+footer .inquiry-section {
     display: flex;
     justify-content: space-between;
+    padding: 38px;
+    background-color: var(--work-section-bg-color);
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom: 38px;
+    border-radius: 8px;
 }
 
-nav a {
-    color: var(--secondary-color);
+footer .work-together {
+    display: flex;
+    flex-direction: column;
 }
 
-nav a:hover {
-    color: #998C93;
+footer .work-together h2{
+    font-size: 2.8rem;
+    font-weight: bold;
 }
-footer {
-    padding: 44px 0;
+
+footer .work-link {
+    color: var(--white-color);
+    background-color: var(--branding-color);
+    padding: 20px 36px;
+    margin-top: 12px;
+}
+
+footer .work-link:hover {
+    color: var(--white-color);
+    padding: 20px 36px;
+    margin-top: 12px;
+    background-color: #941651;
 }
 
 @media (max-width: 992px) {
