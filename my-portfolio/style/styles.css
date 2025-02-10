@@ -147,50 +147,36 @@ header .start-button:hover {
     padding: 18px 30px;
 }
 
-
-
-
-
-.project {
-    background-color: #f5f0f0;
+.about-section {
+    padding: 50px 110px;
 }
 
-
-.content-section {
-    padding: 160px 26px;
-}
-
-.content-section h1, 
+.about-section h1, 
 .work-section h1 {
     font-size: 4rem;
     line-height: 80px;
     font-family: var(--main-heading);
 }
 
-.content-section h2 {
-    font-size: 1.125rem;
+.about-section h2 {
+    font-size: 1.2rem;
     font-family: var(--sub-heading);
 }
 
-.content-section h1 span {
-    font-size: 3rem;
-}
-
-.content {
+.about {
     margin: 0 30px 30px 30px;
 }
 
-.content h2 {
+.about h2 {
     color: #998C93;
 }
 
-.content p {
-    opacity: 0.9;
+.about-section h1 span {
+    font-size: 3rem;
 }
 
-.work h4 {
-    font-weight: bolder;
-    color: black;
+.about p {
+    opacity: 0.9;
 }
 
 .tracy-pic {
@@ -200,7 +186,7 @@ header .start-button:hover {
 
 .see-project {
     color: var(--white-color);
-    background-color: var(--secondary-color);
+    background-color: var(--branding-color);
     padding: 18px 30px;
     width: 22%;
     display: block;
@@ -212,10 +198,42 @@ header .start-button:hover {
 
 .see-project:hover {
     color: var(--black-color);
-    border: 1px solid var(--secondary-color);
+    border: 1px solid var(--branding-color);
     color: #A56C87;
     transform: scale(1.1);
 }
+
+
+
+
+
+.project {
+    background-color: #f5f0f0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.work h4 {
+    font-weight: bolder;
+    color: black;
+}
+
+
+
+
 
 h2 {
     font-size: 4rem;
@@ -361,18 +379,14 @@ footer .social-icons {
         margin-top: 48px;
     }
 
-    .container {
-        text-align: center;
-    }
-
-    .content-section h1 {
+    .about-section h1 {
         font-size: 3.5rem;
         margin-bottom: 0;
         padding-bottom: 0;
         line-height: 60px;
     }
 
-    .content-section h1 span {
+    .about-section h1 span {
         font-size: 2.5rem;
     }
 
@@ -391,5 +405,24 @@ footer .social-icons {
         font-size: 0.73rem;
         padding: 12px 22px;
     }
+    .see-project {
+        font-size: 0.73rem;
+        padding: 12px 22px;
+    }
+
 }
+@media (max-width: 1025px) {
+    .about-section {
+        padding: 10px 30px;
+        text-align: center;
+    }
+  
+}
+
+@media (max-width: 1025px) and (min-width: 991px) {
+    .tracy-pic {
+        margin-top: 80px;
+    }
+}
+
 
