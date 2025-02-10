@@ -46,6 +46,12 @@ nav {
     padding: 14px 0;
 }
 
+h2 {
+    font-size: 4rem;
+    color: var(--black-color);
+    font-family: var(--main-heading);
+}
+
 nav img {
     width: 72px;
     height: 72px;
@@ -151,8 +157,8 @@ header .start-button:hover {
     padding: 50px 110px;
 }
 
-.about-section h1, 
-.work-section h1 {
+.about-section h1,
+.contact-heading  {
     font-size: 4rem;
     line-height: 80px;
     font-family: var(--main-heading);
@@ -203,63 +209,30 @@ header .start-button:hover {
     transform: scale(1.1);
 }
 
+.contact-heading  {
+    font-size: 4rem;
+    line-height: 80px;
+    font-family: var(--main-heading);
+    color: var(--black-color);
+}
 
+.work-section h1 {
+    color: var(--black-color);
+    font-size: 4rem;
+    line-height: 80px;
+    font-family: var(--main-heading);
+}
+
+.work-section h2 {
+    font-size: 1.5rem;
+    color: black;
+}
 
 
 
 .project {
     background-color: #f5f0f0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.work h4 {
-    font-weight: bolder;
-    color: black;
-}
-
-
-
-
-
-h2 {
-    font-size: 4rem;
-    color: var(--black-color);
-    font-family: var(--main-heading);
-}
-
-
-
-
-
-
-
-
- 
-
-
-
-.work-section h1{
-    color: black;
-    margin-bottom: 26px;
- }
-
-
-
-
 
 
 
@@ -363,7 +336,8 @@ footer .social-icons {
         font-size: 1.85rem;
     }
 
-    .hero h1 {
+    .hero h1,
+    .contact-heading {
         font-size: 2.75rem;
         line-height: 2;
     }
@@ -388,6 +362,17 @@ footer .social-icons {
 
     .about-section h1 span {
         font-size: 2.5rem;
+    }
+
+    .work-section h1 {
+        font-size: 2.75rem;
+        line-height: 60px;
+    }
+
+    .work-details {
+        display: flex;
+        flex-direction: column;
+        padding-right: 50px;
     }
 
     .see-project {
