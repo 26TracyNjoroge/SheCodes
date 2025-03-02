@@ -23,7 +23,7 @@ function generatePoem(event) {
     responseEl.classList.remove("hidden");
 
     new Typewriter('#response', {
-        strings: "Generating...",
+        strings: "Generating poem...",
         autoStart: true,
         cursor: "",
         delay: 10,
