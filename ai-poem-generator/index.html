@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Poem Generator</title>
     <link rel="stylesheet" href="src/styles.css"/>
 </head>
@@ -15,7 +16,7 @@
     </header>
 
     <main>
-        <form>
+        <form id="ai-poem-form">
             <input 
                 type="text" 
                 placeholder="Enter the topic for the poem" 
@@ -26,7 +27,7 @@
             />
             <input type="submit" class="form-submit"/>
         </form>
-        <div class="response-area">
+        <div class="response-area" id="response">
 
         </div>
     </main>
