@@ -1,6 +1,6 @@
 # My AI Poem generator Project 
 
-The AI Poem Generator is a web application that allows users to generate poems based on a given topic. This project is built using HTML, CSS, and JavaScript along with JS plugins and the SheCodes AI API to fetch AI-generated poems
+The AI Poem Generator allows users to generate poems based on a given topic. This project is built using HTML, CSS, and JavaScript along with JS plugins and the SheCodes AI API to fetch AI-generated poems
 
 ## Links 
 
@@ -9,4 +9,4 @@ The AI Poem Generator is a web application that allows users to generate poems b
 
 ## Developer 
 
-Coded by [Tracy Wangari](https://github.com/26TracyNjoroge)
+Coded with 💜 by [Tracy Wangari](https://github.com/26TracyNjoroge)
