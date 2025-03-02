@@ -99,6 +99,10 @@ a:hover {
     color: #8d7207;
 }
 
+.hidden {
+    display: none;
+}
+
 @media (max-width: 992px) {
     .page-title {
         font-size: 1.7rem;
