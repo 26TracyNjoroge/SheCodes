@@ -45,6 +45,7 @@ function updateCity(event) {
         </div>
         <div class="time">${cityTimeZone.format("H:mm:ss")} <small>${cityTimeZone.format("A")}</small></div>
     </div>
+    <button><a href="/">Home</a></button>
     `
 }
 

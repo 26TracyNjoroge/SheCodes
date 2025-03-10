@@ -51,6 +51,16 @@ select {
     border-radius: 4px;
 }
 
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 4px 8px;
+}
+
+button a {
+    text-decoration: none;
+}
+
 .city {
     display: flex;
     justify-content: space-between;
