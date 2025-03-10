@@ -26,10 +26,15 @@ function updateTime() {
     
 }
 
+
+
 function updateCity(event) {
-    let city = event.target.value;
-    let cityName = city.replace("_", " ").split("/")[1];
-    let cityTimeZone =moment().tz(city);
+    let cityValue = event.target.value;
+    if (cityValue === "current") {
+        cityValue = moment.tz.guess();
+    }
+    let cityName = cityValue.replace("_", " ").split("/")[1];
+    let cityTimeZone =moment().tz(cityValue);
 
     let cityElement = document.querySelector("#city");
     cityElement.innerHTML = `
