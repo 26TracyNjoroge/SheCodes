@@ -71,6 +71,49 @@ header a {
     color: rgb(48, 44, 44);
 }
 
+footer {
+    color: white;
+    background-image: linear-gradient(rgb(132, 97, 97,0.9), rgb(132, 97, 97,0.9)), url(/images/footer1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+}
+
+section {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+footer h3 {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 30px;
+    margin-bottom: 18px;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    opacity: 0.9;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    color: white;
+    opacity: 0.7;
+    line-height: 1.5;
+}
+
 @media (max-width: 800px) {
     header {
         padding: 54px 0;
