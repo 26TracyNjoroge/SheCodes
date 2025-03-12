@@ -148,6 +148,10 @@ section {
     aspect-ratio: 3 /2;
 }
 
+.space-above {
+    margin-top: 30px;
+}
+
 .secondary {
     background: #f8f8f8;
 }
