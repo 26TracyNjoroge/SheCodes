@@ -99,23 +99,79 @@ main p {
     opacity: 0.7;
 }
 
+main h4 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #272044;
+}
+
+main h5 {
+    font-weight: 700;
+    font-size: 0.813rem;
+    line-height: 1.5;
+    color: #272044;
+}
+
+
 .giraffe-image {
     max-width: 100%;
 }
 
-footer {
-    color: white;
-    background-image: linear-gradient(rgb(132, 97, 97,0.9), rgb(132, 97, 97,0.9)), url(/images/footer1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /* padding: 10px; */
+.cafe {
+    max-width: 100%;
+    display: block;
 }
 
 section {
     max-width: 1060px;
     margin: 0 auto;
     padding: 68px 0;
+}
+
+.card {
+    background: white;
+    margin: 60px 0;
+}
+
+.card-body {
+    padding: 24px;
+}
+
+.embed {
+    max-width: 100%;
+}
+
+.secondary {
+    background: #f8f8f8;
+}
+
+.secondary img {
+    margin-bottom: 8px;
+}
+
+.secondary h4,
+.secondary h5,
+.secondary p {
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: block;
+    color: white;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px;
+    background-color: #855D55;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .grid {
@@ -130,6 +186,18 @@ section {
 .grid-3-columns-first-narrow {
     grid-template-columns: 1fr 2fr 2fr;
 
+}
+
+.grid-3-columns {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer {
+    color: white;
+    background-image: linear-gradient(rgb(132, 97, 97,0.9), rgb(132, 97, 97,0.9)), url(/images/footer1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 footer h3 {
